@@ -1,0 +1,42 @@
+@import "tailwindcss";
+
+@custom-variant dark (&:where(.dark, .dark *));
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/ttf/JetBrainsMono-Regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'JetBrains Mono';
+    src: url('fonts/ttf/JetBrainsMono-Bold.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+}
+*{
+    margin: 0; 
+    padding: 0; 
+    font-family: 'JetBrains Mono', monospace;
+    gap: 10px;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+
+header div{
+    font-style: italic;
+}
+
+svg{
+    color: #343330;
+}
+
+footer{
+    width: 100% !important; 
+}
+
